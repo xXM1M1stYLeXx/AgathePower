@@ -9,6 +9,6 @@ Testspiel des Fachs Game Design / Vorbereitung auf den GameJam
 5. Lokalen Ordner für Repo öffnen
 6. Rechtsklick > Open GitBash here
 7. Folgende Befehle reinkopieren (funktioniert mit Rechtsklick > paste, kein Strg+V):
-   git lfs install
+   `git lfs install
    git lfs track "*.unity"
-   git lfs track "*.dylib"
+   git lfs track "*.dylib"`
