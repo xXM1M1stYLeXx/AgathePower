@@ -22,7 +22,7 @@ AssetImportWorker2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-60935
+61322
 Successfully changed project path to: /Users/maikestemmer/GitRepos/AgathePower/AgathePower
 /Users/maikestemmer/GitRepos/AgathePower/AgathePower
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/maikestemmer/GitRepos/AgathePower/A
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8531901120] Host "[IP] 192.168.178.25 [Port] 0 [Flags] 2 [Guid] 2291382174 [EditorId] 2291382174 [Version] 1048832 [Id] OSXEditor(0,Maikes-Air.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8531901120] Host "[IP] 192.168.178.25 [Port] 0 [Flags] 2 [Guid] 2510730546 [EditorId] 2510730546 [Version] 1048832 [Id] OSXEditor(0,Maikes-Air.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8531901120] Host "[IP] 192.168.178.25 [Port] 0 [Flags] 2 [Guid] 2291382174 [EditorId] 2291382174 [Version] 1048832 [Id] OSXEditor(0,Maikes-Air.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8531901120] Host "[IP] 192.168.178.25 [Port] 0 [Flags] 2 [Guid] 2510730546 [EditorId] 2510730546 [Version] 1048832 [Id] OSXEditor(0,Maikes-Air.fritz.box) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 21.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.30f1 (70558241b701)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,52 +76,52 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56899
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56763
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.30f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.30f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.007200 seconds.
-- Loaded All Assemblies, in  0.340 seconds
+Registered in 0.009534 seconds.
+- Loaded All Assemblies, in  0.386 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 306 ms
+Android Extension - Scanning For ADB Devices 346 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.589 seconds
-Domain Reload Profiling: 930ms
-	BeginReloadAssembly (127ms)
+- Finished resetting the current domain, in  0.708 seconds
+Domain Reload Profiling: 1095ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (129ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (122ms)
-				TypeCache.ScanAssembly (108ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (131ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (590ms)
+	FinalizeReload (709ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (552ms)
+		SetupLoadedEditorAssemblies (668ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (449ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (528ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (68ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			ProcessInitializeOnLoadAttributes (91ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -129,8 +129,8 @@ Domain Reload Profiling: 930ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.657 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.912 seconds
+Refreshing native plugins compatible for Editor in 15.75 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -139,48 +139,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.453 seconds
-Domain Reload Profiling: 1113ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1614ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
+		CreateAndSetChildDomain (27ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (514ms)
-		LoadAssemblies (376ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (728ms)
+		LoadAssemblies (494ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (181ms)
-			TypeCache.Refresh (159ms)
-				TypeCache.ScanAssembly (136ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (453ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (196ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (699ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (320ms)
+		SetupLoadedEditorAssemblies (563ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (189ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.63 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5812 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 103 unused Assets / (0.8 MB). Loaded Objects now: 6267.
-Memory consumption went from 236.0 MB to 235.2 MB.
-Total: 16.808583 ms (FindLiveObjects: 1.109291 ms CreateObjectMapping: 0.173417 ms MarkObjects: 13.747916 ms  DeleteObjects: 1.773125 ms)
+Unloading 6192 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (0.8 MB). Loaded Objects now: 6648.
+Memory consumption went from 243.6 MB to 242.8 MB.
+Total: 24.507625 ms (FindLiveObjects: 1.682792 ms CreateObjectMapping: 0.210792 ms MarkObjects: 16.185708 ms  DeleteObjects: 6.427334 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -196,46 +196,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x3138f7000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.514 seconds
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.157 seconds
-Domain Reload Profiling: 1671ms
-	BeginReloadAssembly (298ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (101ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (15ms)
-	LoadAllAssembliesAndSetupDomain (169ms)
-		LoadAssemblies (273ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (3ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (1158ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (299ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (131ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (85ms)
-			ProcessInitializeOnLoadMethodAttributes (14ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+Received Import Request.
+  Time since last request: 644576.502857 seconds.
+  path: Assets/Sprites/Tiles/FirstTile.asset
+  artifactKey: Guid(ca69cb933732f4a3c83f7ca1fe90ea68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles/FirstTile.asset using Guid(ca69cb933732f4a3c83f7ca1fe90ea68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8411d790d826f25536bbee54cef7c69e') in 0.295019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 87.144242 seconds.
+  path: Assets/Sprites/Tiles/Game Palette.prefab
+  artifactKey: Guid(4206cfeebcfe54839bf4f8fe8d51b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles/Game Palette.prefab using Guid(4206cfeebcfe54839bf4f8fe8d51b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d4409c25edebffc9202fdb4c0b165b') in 0.633299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 135.498956 seconds.
+  path: Assets/Sprites/Tiles/Game Palette.prefab
+  artifactKey: Guid(4206cfeebcfe54839bf4f8fe8d51b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles/Game Palette.prefab using Guid(4206cfeebcfe54839bf4f8fe8d51b89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3a7bd02ce0f7a081de2ee35365baa8') in 0.271979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 149.582865 seconds.
+  path: Assets/Sprites/Tiles/FirstTile 1.asset
+  artifactKey: Guid(3e3f9ec7af8cd4565a51e5503ff9b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles/FirstTile 1.asset using Guid(3e3f9ec7af8cd4565a51e5503ff9b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e1b9a9d3b25d6936d80ae6cc287c16') in 0.081970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.772300 seconds.
+  path: Assets/Sprites/Tiles/Tile2.asset
+  artifactKey: Guid(3e3f9ec7af8cd4565a51e5503ff9b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiles/Tile2.asset using Guid(3e3f9ec7af8cd4565a51e5503ff9b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02992cfcd8026ce41d1c0accc38f60fe') in 0.027519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.668395 seconds.
+  path: Assets/Sprites/Floors/gravel_middle_terrace_border/agathe_terrace_gravel_top_left.png
+  artifactKey: Guid(6e092029e220545038490239ad8d0e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floors/gravel_middle_terrace_border/agathe_terrace_gravel_top_left.png using Guid(6e092029e220545038490239ad8d0e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262ef751e35924dcf780081af85ab576') in 0.262233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites/Floors/gravel_middle_terrace_border/agathe_terrace_gravel_top_right.png
+  artifactKey: Guid(c74e50246cd8b43d99c8144498a7baf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Floors/gravel_middle_terrace_border/agathe_terrace_gravel_top_right.png using Guid(c74e50246cd8b43d99c8144498a7baf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a8dc2d3e2e8f816c092378e3651536') in 0.021948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Sprites/LawnRobot/Lawn_Robot_Broken_Left.png
+  artifactKey: Guid(8907520839dd54399a4741c0a7f4a3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LawnRobot/Lawn_Robot_Broken_Left.png using Guid(8907520839dd54399a4741c0a7f4a3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45836016e5a3f8b9ddc795501c99561f') in 0.020635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/LawnRobot/Lawn_Robot_Back.png
+  artifactKey: Guid(a8b06401c21564943a0238837fa12538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LawnRobot/Lawn_Robot_Back.png using Guid(a8b06401c21564943a0238837fa12538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a9372db7429b4497899f00e01b19f8') in 0.011985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprites/LawnRobot/Lawn_Robot_Broken_Broken.png
+  artifactKey: Guid(944a5e20016284c59ac55ea0fd6513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LawnRobot/Lawn_Robot_Broken_Broken.png using Guid(944a5e20016284c59ac55ea0fd6513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c044cceeb7412a006a2bf8e3e816709') in 0.032263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/LawnRobot/Lawn_Robot_Broken_Front.png
+  artifactKey: Guid(a10cb0e508cf34274a4cdcc371ed4069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LawnRobot/Lawn_Robot_Broken_Front.png using Guid(a10cb0e508cf34274a4cdcc371ed4069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58895e63a974819fc9854f34a66f5946') in 0.011213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
